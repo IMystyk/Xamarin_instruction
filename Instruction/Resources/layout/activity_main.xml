@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2" >
+
+        <TextView
+            android:text="Name"
+            android:textSize="75px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:id="@+id/txt_name_header" />
+        <TextView
+            android:text="Surname"
+            android:textSize="75px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:id="@+id/txt_surname_header" />
+        <TextView
+            android:text="Age"
+            android:textSize="75px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:id="@+id/txt_age_header" />
+
+    </LinearLayout>
+
+        <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_people" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
